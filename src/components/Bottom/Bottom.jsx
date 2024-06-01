@@ -11,7 +11,7 @@ const Bottom = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${apiUrl}/user/count`);
+        const response = await fetch(`${apiUrl}/api/v1/user/count`);
         if (!response.ok) {
           throw new Error('Network Response Was Not Okay.');
         }
@@ -23,7 +23,7 @@ const Bottom = () => {
       }
 
       try {
-        const response = await fetch(`${apiUrl}/mantralekhan/count`);
+        const response = await fetch(`${apiUrl}/api/v1/mantralekhan/count`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

@@ -14,7 +14,7 @@ function Navbar() {
     const getUserData = async () => {
       try {
         axios.defaults.withCredentials = true;
-        let response = await axios(`${apiUrl}/admin/login/success`, {
+        let response = await axios(`${apiUrl}/api/v1/admin/login/success`, {
           method: 'GET',
           withCredentials: true
         })
@@ -31,7 +31,7 @@ function Navbar() {
   const logout = async () => {
     
     try {
-      await axios.get(`${apiUrl}/admin/logout`, {
+      await axios.get(`${apiUrl}/api/v1/admin/logout`, {
         withCredentials: true,
       });
       setUserData(null);

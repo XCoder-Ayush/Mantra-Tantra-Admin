@@ -19,10 +19,10 @@ const TopUsersPage = () => {
   const fetchData = async () => {
     try {
 
-      const weekResponse = await fetch(`${apiUrl}/mantralekhan/week`);
-      const allTimeResponse = await fetch(`${apiUrl}/mantralekhan/alltime`);
-      const monthResponse = await fetch(`${apiUrl}/mantralekhan/month`);
-      const todayResponse = await fetch(`${apiUrl}/mantralekhan/today`);
+      const weekResponse = await fetch(`${apiUrl}/api/v1/mantralekhan/week`);
+      const allTimeResponse = await fetch(`${apiUrl}/api/v1/mantralekhan/alltime`);
+      const monthResponse = await fetch(`${apiUrl}/api/v1/mantralekhan/month`);
+      const todayResponse = await fetch(`${apiUrl}/api/v1/mantralekhan/today`);
 
       if (!weekResponse.ok ||!allTimeResponse.ok ) {
         throw new Error('Failed to fetch data');

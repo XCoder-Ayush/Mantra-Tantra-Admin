@@ -16,7 +16,7 @@ const AllUsers = () => {
       const getUserData = async () => {
         try {
           axios.defaults.withCredentials = true;
-          let response = await axios(`${apiUrl}/admin/login/success`, {
+          let response = await axios(`${apiUrl}/api/v1/admin/login/success`, {
             method: 'GET',
             withCredentials: true
           })
@@ -33,7 +33,7 @@ const AllUsers = () => {
       
       const getUsersData = async () => {
         try {
-          const response = await fetch(`${apiUrl}/admin/users`, {
+          const response = await fetch(`${apiUrl}/api/v1/admin/users`, {
             method: 'GET',
             credentials: 'include'
           });

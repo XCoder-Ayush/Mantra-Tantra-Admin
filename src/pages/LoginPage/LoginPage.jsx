@@ -25,7 +25,7 @@ const LoginPage = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post(`${apiUrl}/admin/login`, {
+      const response = await axios.post(`${apiUrl}/api/v1/admin/login`, {
         email: formData.email,
         password: formData.password,
       });
