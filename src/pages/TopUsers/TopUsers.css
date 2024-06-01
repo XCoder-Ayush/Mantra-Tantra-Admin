@@ -1,0 +1,167 @@
+.topusers-main{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.top-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.middle-stump {
+  display: flex;
+  justify-content: center;
+}
+.top-users-page {
+  margin-left: 5rem;
+ flex: 1;
+  width: 80%;
+}
+
+.top-users-container {
+  width: 80%; 
+  margin: auto; 
+}
+
+.top-users-content {
+  margin-right: 0; 
+  margin-left: 0; 
+}
+
+.tabs {
+  display: flex;
+  gap: 30px;
+  padding-left: 10rem;
+  margin-bottom: 20px; 
+}
+
+.tabs button {
+  padding: 15px 30px;
+  font-size: 18px; 
+  background-color: #f0f0f0; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.tabs button:hover {
+  background-color: #ccc;
+}
+
+.tabs button.active {
+  background-color: #eb6932; 
+}
+
+.user-info {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.serial-number {
+  font-size: 18px;
+  margin-right: 10px; 
+  font-weight: bold;
+}
+
+.user-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-bottom: 2px dotted black; 
+  margin-right: 30px; 
+}
+.user-name {
+  font-size: 30px;
+}
+.user-details h3 {
+  text-align: left;
+
+  margin-bottom: 5px;
+}
+
+.user-details p {
+  text-align: left;
+  font-size: 18px; 
+  margin: 0; 
+}
+
+.user-divider {
+  border: none;
+  border-top: 2px solid #ccc; 
+  width: 100%; 
+}
+
+.button {
+  background-color: #eb6932;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px; 
+  border-radius: 15px;
+  margin-left: 8rem;
+  border-radius: 5px;
+}
+.top-users-page {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.top-users-container {
+  width: 90%; 
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 15px; 
+  padding-left: 5%;
+}
+
+.tabs button {
+  padding: 12px 20px; 
+  font-size: 16px; 
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+.user-image {
+  width: 60px; 
+  height: 60px; 
+  margin-right: 15px;
+}
+
+.user-name {
+  font-size: 24px; 
+}
+
+.user-details p {
+  font-size: 16px;
+}
+
+.button {
+  margin: 20px auto;
+}
+
+h2 {
+  margin: 0;
+}
+
+.user-name {
+  color: #de4620;
+}
+
+.topuser-middle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
